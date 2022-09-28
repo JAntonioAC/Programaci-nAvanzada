@@ -32,9 +32,9 @@ varianzaA=var(c)
 covarianzA=cov(c)
 
 CR1=corrcoef(a,b)
-CR2=corrcoef(c,b)
-CR3=corrcoef(d,b)
-CR4=corrcoef(a,d)
+CR2=corrcoef(a,c)
+CR3=corrcoef(b,c)
+CR4=corrcoef(d,c)
 
 figure
 subplot(221),heatmap(CR1)
